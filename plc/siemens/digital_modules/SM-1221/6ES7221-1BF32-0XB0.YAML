@@ -1,0 +1,72 @@
+digital_input_module:
+  manufacturer: Siemens
+  model: "6ES7221-1BF32-0XB0"
+  comment: "SIMATIC S7-1200, Digital input SM 1221, 8 DI, 24 V DC, Sink/Source"
+  di-count: 8
+  start_register: "0"
+
+    
+  io_points:
+    - address: "a.0"
+      tag_name: "Undefined"
+      description: "Undefined"
+      alarm: false
+      alarm_delay: 0.0
+      debounce: 0.05
+      enabled: true
+
+    - address: "a.1"
+      tag_name: "Undefined"
+      description: "Undefined"
+      alarm: false
+      alarm_delay: 0.0
+      debounce: 0.05
+      enabled: true
+
+    - address: "a.2"
+      tag_name: "Undefined"
+      description: "Undefined"
+      alarm: false
+      alarm_delay: 0.0
+      debounce: 0.05
+      enabled: true
+
+    - address: "a.3"
+      tag_name: "Undefined"
+      description: "Undefined"
+      alarm: false
+      alarm_delay: 0.0
+      debounce: 0.05
+      enabled: true
+
+    - address: "a.4"
+      tag_name: "Undefined"
+      description: "Undefined"
+      alarm: false
+      alarm_delay: 0.0
+      debounce: 0.05
+      enabled: true
+
+    - address: "a.5"
+      tag_name: "Undefined"
+      description: "Undefined"
+      alarm: false
+      alarm_delay: 0.0
+      debounce: 0.05
+      enabled: true
+
+    - address: "a.6"
+      tag_name: "Undefined"
+      description: "Undefined"
+      alarm: false
+      alarm_delay: 0.0
+      debounce: 0.05
+      enabled: true
+
+    - address: "a.7"
+      tag_name: "Undefined"
+      description: "Undefined"
+      alarm: false
+      alarm_delay: 0.0
+      debounce: 0.05
+      enabled: true
