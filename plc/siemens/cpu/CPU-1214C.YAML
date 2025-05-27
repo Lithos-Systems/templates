@@ -21,7 +21,11 @@ plc:
   country_of_origin: "Germany"
   status: "Active"
 
-  installed_modules:
+  max_modules: 
+    - comm: 3
+    - signal: 8
+
+  installed_modules:C
     - slot: 0
       type: "CPU"
       part_number: "6ES7214-1AG40-0XB0"
