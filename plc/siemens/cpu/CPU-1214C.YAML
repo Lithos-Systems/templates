@@ -25,7 +25,7 @@ plc:
     - comm: 3
     - signal: 8
 
-  installed_modules:C
+  installed_modules:
     - slot: 0
       type: "CPU"
       part_number: "6ES7214-1AG40-0XB0"
