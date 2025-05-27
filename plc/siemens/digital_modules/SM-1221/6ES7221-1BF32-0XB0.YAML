@@ -1,8 +1,8 @@
 digital_input_module:
   manufacturer: Siemens
-  model: "6ES7221-1BF32-0XB0"
+  part_number: "6ES7221-1BF32-0XB0"
   comment: "SIMATIC S7-1200, Digital input SM 1221, 8 DI, 24 V DC, Sink/Source"
-  di-count: 8
+  di_count: 8
   start_register: "0"
 
     
