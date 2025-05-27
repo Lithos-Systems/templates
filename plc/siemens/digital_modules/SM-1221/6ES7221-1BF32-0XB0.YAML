@@ -14,6 +14,7 @@ digital_input_module:
       alarm_delay: 0.0
       debounce: 0.05
       enabled: true
+      value: false
 
     - address: "a.1"
       tag_name: "Undefined"
@@ -22,6 +23,7 @@ digital_input_module:
       alarm_delay: 0.0
       debounce: 0.05
       enabled: true
+      value: false
 
     - address: "a.2"
       tag_name: "Undefined"
@@ -30,6 +32,7 @@ digital_input_module:
       alarm_delay: 0.0
       debounce: 0.05
       enabled: true
+      value: false
 
     - address: "a.3"
       tag_name: "Undefined"
@@ -38,6 +41,7 @@ digital_input_module:
       alarm_delay: 0.0
       debounce: 0.05
       enabled: true
+      value: false
 
     - address: "a.4"
       tag_name: "Undefined"
@@ -46,6 +50,7 @@ digital_input_module:
       alarm_delay: 0.0
       debounce: 0.05
       enabled: true
+      value: false
 
     - address: "a.5"
       tag_name: "Undefined"
@@ -54,6 +59,7 @@ digital_input_module:
       alarm_delay: 0.0
       debounce: 0.05
       enabled: true
+      value: false
 
     - address: "a.6"
       tag_name: "Undefined"
@@ -62,6 +68,7 @@ digital_input_module:
       alarm_delay: 0.0
       debounce: 0.05
       enabled: true
+      value: false
 
     - address: "a.7"
       tag_name: "Undefined"
@@ -70,3 +77,4 @@ digital_input_module:
       alarm_delay: 0.0
       debounce: 0.05
       enabled: true
+      value: false
