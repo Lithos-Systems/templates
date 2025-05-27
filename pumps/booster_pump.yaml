@@ -1,0 +1,30 @@
+booster_pump:
+  status:
+    available:        false         # Boolean
+    hand:             false         # Boolean (Hand mode engaged)
+    off:              false         # Boolean (Off mode engaged)
+    auto:             false         # Boolean (Auto mode engaged)
+    run:              false         # Boolean (Pump is running)
+    speed:            0.0           # Float (% or RPM)
+    discharge_pressure: 0.0         # Float (psi/bar)
+    header_pressure:  0.0           # Float (psi/bar)
+    flow:             0.0           # Float (GPM/LPM)
+    current:
+      phase_a:        0.0           # Float (Amps)
+      phase_b:        0.0
+      phase_c:        0.0
+    voltage:
+      phase_a:        0.0           # Float (Volts)
+      phase_b:        0.0
+      phase_c:        0.0
+
+  alarms:
+    overload:         false         # Boolean
+    starter_failure:  false         # Boolean
+    fail_to_run:      false         # Boolean
+    breaker:          false         # Boolean
+
+  control:
+    start:            false         # Boolean (Start command)
+    speed_control:    0.0           # Float (Setpoint, % or RPM)
+    inhibit:          false         # Boolean (Prevent start/run)
