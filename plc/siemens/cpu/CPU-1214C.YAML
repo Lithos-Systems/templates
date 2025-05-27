@@ -1,0 +1,64 @@
+plc:
+  manufacturer: Siemens
+  model: S7-1200 CPU 1214C
+  part_number: 6ES7214-1AG40-0XB0
+  description: "SIMATIC S7-1200, CPU 1214C, DC/DC/DC, onboard I/O: 14 DI 24V DC, 10 DO 24V DC, 2 AI 0-10V DC"
+  power_supply:
+    voltage_range_vdc: "20.4–28.8"
+    type: "DC"
+  onboard_io:
+    digital_inputs: 14
+    digital_input_voltage: "24V DC"
+    digital_outputs: 10
+    digital_output_voltage: "24V DC"
+    analog_inputs: 2
+    analog_input_range: "0-10V DC"
+  memory:
+    program_data_kb: 150
+  dimensions_cm: "10.8 x 11.6 x 8.3"
+  net_weight_kg: 0.357
+  cpu_family: "S7-1200"
+  country_of_origin: "Germany"
+  status: "Active"
+
+  installed_modules:
+    - slot: 0
+      type: "CPU"
+      part_number: "6ES7214-1AG40-0XB0"
+      description: "CPU 1214C, 14DI, 10DO, 2AI"
+    # add more modules below if attached
+    # - slot: 1
+    #   type: "DI Module"
+    #   part_number: "6ES7221-1BF32-0XB0"
+    #   description: "Digital Input SM 1221, 8DI, 24V DC"
+    # - slot: 2
+    #   type: "DO Module"
+    #   part_number: "6ES7222-1BF32-0XB0"
+    #   description: "Digital Output SM 1222, 8DO, 24V DC, 0.5A"
+    # - slot: 3
+    #   type: "Simulator"
+    #   part_number: "6ES7274-1XH30-0XA0"
+    #   description: "Simulator module SIM 1274, 14 input switches, DC 24V"
+
+  communications:
+    ethernet:
+      ports: 1
+      type: "10/100 Mbps RJ45"
+      mac_address: ""     # Fill in if known
+    supported_protocols:
+      - "Profinet"
+      - "Modbus TCP"
+      - "S7"
+      - "OPC-UA"
+
+  io_addressing:
+    digital_inputs: "I0.0 – I1.5"      # update per actual config
+    digital_outputs: "Q0.0 – Q1.1"
+    analog_inputs: "AIW0 – AIW2"       # update per actual config
+
+  notes: |
+    - Power supply must be DC 20.4–28.8V.
+    - Confirm memory card is installed for program/data backup if needed.
+    - Onboard IO addresses may shift if extra modules are added.
+    - Always review LED diagnostics after power up or reset.
+
